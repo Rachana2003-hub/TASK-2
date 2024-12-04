@@ -1,0 +1,108 @@
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(139, 114, 118, 0.945);
+}
+
+.stopwatch-container {
+    width: 40%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.display {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #8c52ff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.controls button:nth-last-child(2) {
+    background-color: rgb(175, 54, 54);
+}
+
+.controls button:nth-last-child(1) {
+    background-color: green;
+}
+
+.controls button:nth-last-child(3) {
+    background-color: blue;
+}
+
+.controls button:nth-last-child(4) {
+    background-color: peru;
+}
+
+
+
+.controls button:hover {
+    background-color: gray;
+}
+
+.lap-times ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-times li {
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('background2.jpg'); /* Use the uploaded image */
+    background-size: cover; /* Make the image cover the entire page */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-position: center; /* Center the image */
+    color: #333; /* Ensure text remains readable */
+    
+}
